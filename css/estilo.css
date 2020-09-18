@@ -92,8 +92,16 @@ label {
 
 
 .comienzo button {
-    height: 50px;
-    width: 120px;
+    margin-top: 100px;
+    height: 40px;
+    width: 280px;
+    margin-right: 40px;
+    font-size: 35px;
+    font-family: monospace;
+    background-color: hsl(0, 80%, 30%);
+    color: white;
+    padding-top: 0px;
+    border-radius: 10px;
 }
 
 button .imgbater {
