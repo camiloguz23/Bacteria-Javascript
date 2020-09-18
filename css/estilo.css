@@ -1,0 +1,130 @@
+body {
+    background-color: hsla(0, 0%, 70%, 1);
+    border:0;
+    padding:0;
+    margin: 0;
+}
+
+.musicos{
+    /*display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    text-align: center;
+    gap:25px;
+    margin:10px 0;
+    position: relative;
+    margin-top: 200px*/
+    display: flex;
+    justify-content: center;
+}
+
+.musicos img {
+    margin-top: 150px;
+    height: 450px;
+    width: 450px;  
+}
+
+.contenedorUno {
+    position: relative;
+    height: 200px;
+   
+    
+}
+
+label {
+    position: absolute;
+    top: 5px;
+    left: 1400px;
+    z-index: 2;
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.lineaRoja{
+    position: absolute;
+    z-index: 3;
+    height: 10px;
+    transform: skew(0deg, -7.5deg);
+    background-color: red;
+    width: 100%;
+    top: 120px;
+}
+
+.logoUno {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    z-index: 2;
+}
+
+.skewUno {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: black;
+    border-width:  3vh 0 29vh 100vw;       /*define el ancho del borde con su respectivo valor*/
+    border-style: solid;              /*el estilo del borde que sea solido*/
+    border-color: transparent transparent hsla(0, 0%, 70%, 1) transparent;  /*yel borde que sea de color blanco transparente */
+}
+
+.titulo {
+    position: absolute;
+    top: 100px;
+    left: 900px;
+}
+
+/**************  ingreso al juego ********************/
+.zona {
+    background-image: url("../img/fondo.jpeg");
+    background-attachment: fixed;
+    background-size: cover;
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.comienzo {
+    display: flex;
+    padding: 70px;
+    justify-content: center;
+
+}
+
+
+.comienzo button {
+    height: 50px;
+    width: 120px;
+}
+
+button .imgbater {
+    margin-top: 40px;
+}
+
+
+
+/*----------------------------------FOOTER-------------------------------*/
+
+.imagenBater{
+    margin-left:30%;
+    position:absolute;
+}
+
+.veinte{
+    margin-left:70%;
+} 
+
+.imagenFloter{
+    margin-left: 80%;
+    width:150px; 
+    left:100px;
+}
+
+.abajo{
+    
+    top: 0px;
+    left: 0px;
+    background-color: red;
+    border-width:  10vw 0 0 10vw;        /*define el ancho del borde con su respectivo valor*/
+    border-style: solid;              /*el estilo del borde que sea solido*/
+    border-color: transparent transparent hsla(0, 0%, 70%, 1) transparent;
+}
