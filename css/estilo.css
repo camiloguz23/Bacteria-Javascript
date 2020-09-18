@@ -112,27 +112,3 @@ button .imgbater {
 
 /*----------------------------------FOOTER-------------------------------*/
 
-.imagenBater{
-    margin-left:30%;
-    position:absolute;
-}
-
-.veinte{
-    margin-left:70%;
-} 
-
-.imagenFloter{
-    margin-left: 80%;
-    width:150px; 
-    left:100px;
-}
-
-.abajo{
-    
-    top: 0px;
-    left: 0px;
-    background-color: red;
-    border-width:  10vw 0 0 10vw;        /*define el ancho del borde con su respectivo valor*/
-    border-style: solid;              /*el estilo del borde que sea solido*/
-    border-color: transparent transparent hsla(0, 0%, 70%, 1) transparent;
-}
