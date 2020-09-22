@@ -191,6 +191,12 @@ a{
     color:rgb(255, 255, 255);
 }
 
+.bateria {
+    position: relative;
+    top: 70px;
+    left: 350px;
+}
+
 
 
 
@@ -216,7 +222,7 @@ a{
     color:rgb(255, 255, 255);
     position:absolute;
     font-size:20px;
-    top:198%;
+    top:88%;
     left:5%;
 }
 
