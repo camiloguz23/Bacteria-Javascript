@@ -112,3 +112,36 @@ button .imgbater {
 
 /*----------------------------------FOOTER-------------------------------*/
 
+.imagenBater{
+    margin-left:30%;
+    position:absolute;
+}
+
+.veinte{
+    margin-left:70%;
+} 
+
+.imagenFloter{
+    margin-left: 80%;
+    position:absolute;
+    width:150px; 
+    left:100px;
+    margin-top:4%;
+}
+
+.veinte{
+    color:rgb(255, 255, 255);
+    position:absolute;
+    font-size:20px;
+    top:198%;
+    left:5%;
+}
+
+.abajo{
+    
+    top: 0px;
+    left: 0px;   
+    border-style: solid;              
+    border-width: 21vh 98.5vw 15vh 0; 
+    border-color: transparent red red transparent;
+}
