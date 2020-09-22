@@ -154,7 +154,9 @@ button .imgbater {
 
 .logo{
     width: 100px;
-    margin-top:0%;
+    margin-left:1%;
+    margin-top:1%;
+    margin-bottom:1%;
     position: relative;
    
 }
@@ -164,10 +166,11 @@ li{
     padding:10px 110px 10px 10px;
     background: rgb(37, 80, 211);
 }
-header{
+.cabeza{
     width:100%;
     overflow: hidden;
-    background:#252932;
+    background: blue;
+    position:absolute;
     margin-bottom: 20px;
 
 }
@@ -175,10 +178,7 @@ li:hover{
     background: rgb(12, 12, 12);
     
 }
-.cabeza{
-    background: blue;
-    position:absolute;
-}
+
 nav{
     
     float: right;
