@@ -154,9 +154,9 @@ button .imgbater {
 
 .logo{
     width: 100px;
-    margin-left:2%;
-    margin-top:2%;
-    margin-bottom:2%;
+    margin-left:1%;
+    margin-top:1%;
+    margin-bottom:1%;
     position: relative;
    
 }
@@ -191,6 +191,12 @@ a{
     color:rgb(255, 255, 255);
 }
 
+.bateria {
+    position: relative;
+    top: 70px;
+    left: 350px;
+}
+
 
 
 
@@ -216,7 +222,7 @@ a{
     color:rgb(255, 255, 255);
     position:absolute;
     font-size:20px;
-    top:198%;
+    top:88%;
     left:5%;
 }
 
