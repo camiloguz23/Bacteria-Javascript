@@ -146,8 +146,89 @@ button .imgbater {
     border-color: transparent hsl(0, 80%, 30%) hsl(0, 80%, 30%) transparent;
 }
 
-/****************  PAGINA DE LA BATERIA ***************/
-.bateria {
-    display: flex;
-    justify-content: center;
+
+
+/*-------------------------------------------------------------PAGINA 2 DE LA BATERIA---------------------------------------*/
+
+
+
+.logo{
+    width: 100px;
+    margin-top:0%;
+    position: relative;
+   
 }
+li{
+    float:left;
+    list-style:none;
+    padding:10px 110px 10px 10px;
+    background: rgb(37, 80, 211);
+}
+header{
+    width:100%;
+    overflow: hidden;
+    background:#252932;
+    margin-bottom: 20px;
+
+}
+li:hover{
+    background: rgb(12, 12, 12);
+    
+}
+.cabeza{
+    background: blue;
+    position:absolute;
+}
+nav{
+    
+    float: right;
+    margin-right: 32%;
+ 
+}
+
+a{
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+}
+
+
+
+
+
+/*------------------------------------footer------------------*/
+
+
+
+
+.veinte2{
+    margin-left:70%;
+} 
+
+.imagenFloter2{
+    margin-left: 80%;
+    position:absolute;
+    width:150px; 
+    left:100px;
+    margin-top:4%;
+}
+
+.veinte2{
+    color:rgb(255, 255, 255);
+    position:absolute;
+    font-size:20px;
+    top:198%;
+    left:5%;
+}
+
+.abajos{
+    
+     
+    border-style: solid;              
+    border-width: 21vh 98.5vw 15vh 0; 
+    border-color: transparent hsl(246, 80%, 30%) hsl(0, 0%, 7%) transparent;
+}
+
+
+
+
+
