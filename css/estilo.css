@@ -100,7 +100,6 @@ label {
     font-family: monospace;
     background-color: hsl(0, 80%, 30%);
     color: white;
-    padding-top: 0px;
     border-radius: 10px;
     cursor: pointer;
 }
