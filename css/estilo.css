@@ -96,12 +96,13 @@ label {
     height: 40px;
     width: 280px;
     margin-right: 40px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: monospace;
     background-color: hsl(0, 80%, 30%);
     color: white;
     padding-top: 0px;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 button .imgbater {
@@ -143,5 +144,5 @@ button .imgbater {
     left: 0px;   
     border-style: solid;              
     border-width: 21vh 98.5vw 15vh 0; 
-    border-color: transparent red red transparent;
+    border-color: transparent hsl(0, 80%, 30%) hsl(0, 80%, 30%) transparent;
 }
