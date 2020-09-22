@@ -145,3 +145,9 @@ button .imgbater {
     border-width: 21vh 98.5vw 15vh 0; 
     border-color: transparent hsl(0, 80%, 30%) hsl(0, 80%, 30%) transparent;
 }
+
+/****************  PAGINA DE LA BATERIA ***************/
+.bateria {
+    display: flex;
+    justify-content: center;
+}
