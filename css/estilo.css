@@ -101,7 +101,7 @@ label {
     background-color: hsl(0, 80%, 30%);
     color: white;
     border-radius: 10px;
-    cursor:pointer;
+    cursor: pointer;
 }
 
 button .imgbater {
@@ -143,5 +143,5 @@ button .imgbater {
     left: 0px;   
     border-style: solid;              
     border-width: 21vh 98.5vw 15vh 0; 
-    border-color: transparent red red transparent;
+    border-color: transparent hsl(0, 80%, 30%) hsl(0, 80%, 30%) transparent;
 }
