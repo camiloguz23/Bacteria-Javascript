@@ -96,12 +96,12 @@ label {
     height: 40px;
     width: 280px;
     margin-right: 40px;
-    font-size: 35px;
+    font-size: 30px;
     font-family: monospace;
     background-color: hsl(0, 80%, 30%);
     color: white;
-    padding-top: 0px;
     border-radius: 10px;
+    cursor:pointer;
 }
 
 button .imgbater {
