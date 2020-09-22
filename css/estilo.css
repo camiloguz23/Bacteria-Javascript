@@ -112,7 +112,6 @@ button .imgbater {
 
 /*----------------------------------FOOTER-------------------------------*/
 
-
 .imagenBater{
     margin-left:30%;
     position:absolute;
@@ -146,4 +145,3 @@ button .imgbater {
     border-width: 21vh 98.5vw 15vh 0; 
     border-color: transparent red red transparent;
 }
-
