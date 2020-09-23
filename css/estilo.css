@@ -193,11 +193,14 @@ a{
 
 .bateria {
     position: relative;
-    top: 70px;
-    left: 350px;
+    top: 70px;   
 }
 
-
+.Imagen {
+    
+    border: red solid 2px;
+    text-align: center; 
+}
 
 
 
