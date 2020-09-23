@@ -152,9 +152,16 @@ button .imgbater {
 
 
 
+.cabeza{
+    width:100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom right, black 40%,  hsl(0, 80%, 40%));
+    position:absolute;
+    
+}
 .logo{
-    width: 100px;
-    margin-left:1%;
+    width: 60px;
+    margin-left:3%;
     margin-top:1%;
     margin-bottom:1%;
     position: relative;
@@ -163,43 +170,38 @@ button .imgbater {
 li{
     float:left;
     list-style:none;
-    padding:10px 110px 10px 10px;
-    background: rgb(37, 80, 211);
+    padding:10px 20px;
 }
-.cabeza{
-    width:100%;
-    overflow: hidden;
-    background: blue;
-    position:absolute;
-    margin-bottom: 20px;
 
-}
 li:hover{
-    background: rgb(12, 12, 12);
-    
+    background:  hsl(0, 80%, 30%) ;
+    border-radius: 20px;
 }
 
 nav{
     
     float: right;
-    margin-right: 32%;
+    margin-right: 27%;
  
 }
 
 a{
     text-decoration: none;
     color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
+    
 }
 
 .bateria {
     position: relative;
-    top: 70px;   
+    top: 70px;
+    margin-left: 30%;
 }
 
-.Imagen {
-    
-    text-align: center; 
-}
+
+
 
 
 
@@ -209,32 +211,47 @@ a{
 
 
 .veinte2{
-    margin-left:70%;
+    
+    margin-top: 1%;
 } 
 
 .imagenFloter2{
-    margin-left: 80%;
+    margin-left: 92%;
     position:absolute;
-    width:150px; 
-    left:100px;
-    margin-top:4%;
+    width:70px; 
+    margin-top:-6%;
 }
 
 .veinte2{
     color:rgb(255, 255, 255);
     position:absolute;
-    font-size:20px;
-    top:88%;
-    left:5%;
+    font-size:17px;
+    top:85.5%;
+    left:2%;
+   
 }
 
-.abajos{
-    
-     
-    border-style: solid;              
-    border-width: 21vh 98.5vw 15vh 0; 
-    border-color: transparent hsl(246, 80%, 30%) hsl(0, 0%, 7%) transparent;
+.abajos
+ {
+    z-index: 10;  
+    margin-top: 6.4%;  
+    bottom: 0;   
+    left: 0;   
+    border-width: 0 0 17vh 100vw;  
+    border-style: solid;  
+    border-color: transparent transparent hsl(0, 80%, 30%) transparent;  
 }
+.arribas
+ {
+    z-index: 10;  
+    margin-top: -7.24%;  
+    bottom: 0;   
+    left: 0;   
+    border-width: 15vh  0 0 100vw;  
+    border-style: solid;  
+    border-color:  transparent  black transparent;  
+}
+
 
 
 
