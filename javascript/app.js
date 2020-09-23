@@ -1,7 +1,9 @@
-const imagen = document.getElementById("imagen");
+const imagen = document.getElementById("imagen"); // llamo los elementos de html por el dom 
 const sonido = document.querySelector(".sonido");
-document.addEventListener("keydown", tecla);
- 
+const direccion = document.getElementById("direccion")
+document.addEventListener("keydown", tecla);  // evento de las teclas 
+
+// la funcion que permite el sinido y la imagen
 function tecla(evento) {
     if (evento.keyCode == 32) {
         sonido.innerHTML=`<audio src="sounds/bombo.mp3" autoplay></audio>`;
@@ -29,3 +31,7 @@ function tecla(evento) {
         imagen.src ="img/base-tom-suelo.png";
     }
 }
+
+direccion.addEventListener("click", () => {
+    window.location = "../bateria.html";
+})
