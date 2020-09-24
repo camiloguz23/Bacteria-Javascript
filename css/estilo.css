@@ -165,7 +165,7 @@ li{
 .cabeza{
     width:100%;
     overflow: hidden;
-    background: blue;
+    /*background: blue;*/
     position:absolute;
     margin-bottom: 20px;
 }
