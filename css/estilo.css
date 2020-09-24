@@ -33,20 +33,20 @@ body {
 .lineaRoja{
     position: absolute;
     z-index: 3;
-    height: 10px;
-    transform: skew(-3deg, -7deg);
+    height: 15px;
+    transform: skew(-3deg, -7.6deg);
     background-color:  hsl(0, 80%, 30%);
     width: 100%;
-    top: 77px;
+    top: 64.6px;
 }
 .lineanegra{
     position: absolute;
     z-index: 3;
-    height: 10px;
-    transform: skew(-3deg, -7deg);
+    height: 20px;
+    transform: skew(-2deg, -7.5deg);
     background-color: black;
     width: 100%;
-    top: 87px;
+    top: 74px;
 }
 
 .logoUno {
@@ -56,16 +56,20 @@ body {
     z-index: 2;
     width: 100px;
 }
-
+.skewUno
+{
+    width: -100%;
+}
 .skewUno
  {
     position: absolute;
     top: -10%;
     background-color: black;
-    border-width:  0vh 0 29vh 110vw;       /*define el ancho del borde con su respectivo valor*/
+    border-width:  0vh 0vh 29vh 98.5vw;       /*define el ancho del borde con su respectivo valor*/
     border-style: solid;              /*el estilo del borde que sea solido*/
     border-color: transparent transparent hsla(0, 0%, 70%, 1) transparent;  /*yel borde que sea de color blanco transparente */
 }
+
 
 .titulo 
 {
@@ -151,6 +155,11 @@ li{
     float:left;
     list-style:none;
     padding:10px 20px;
+    text-decoration: none;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 20px;
 }
 
 li:hover{
@@ -206,14 +215,14 @@ a{
     color:rgb(255, 255, 255);
     position:absolute;
     font-size:17px;
-    top:213%;
+    top:220%;
     left:2%;  
 }
 .veinte2{
     color:rgb(255, 255, 255);
     position:absolute;
     font-size:17px;
-    top:86.5%;
+    top:93.5%;
     left:2%;
    
 }
@@ -221,20 +230,35 @@ a{
 .abajos
  {
     z-index: 10;  
-    margin-top: 6.4%;  
+    margin-top: 7%;  
     bottom: 0;   
     left: 0;   
-    border-width: 0 0 17vh 100vw;  
+    border-width: 0 0 17vh 98.5vw;  
     border-style: solid;  
     border-color: transparent transparent hsl(0, 80%, 30%) transparent;  
 }
 .arribas
  {
     z-index: 10;  
-    margin-top: -7.24%;  
+    margin-top: -6.90%;  
     bottom: 0;   
     left: 0;   
-    border-width: 15vh  0 0 100vw;  
+    border-width: 15vh  0 0 98.5vw;  
     border-style: solid;  
     border-color:  transparent  black transparent;  
+}
+.instru
+{
+    position: absolute;
+    top: 8px;
+    left: 150px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 640px;
+    border-radius: 20px;
+
+}
+.instru img
+{
+    margin-left: 0px;
+    padding: 0px 50px 0px 0px;
 }
