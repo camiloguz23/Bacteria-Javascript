@@ -2,6 +2,7 @@ const imagen = document.getElementById("imagen"); // llamo los elementos de html
 const sonido = document.querySelector(".sonido");
 const instru = document.querySelector(".instru");
 const inst = document.getElementById("inst");
+
 document.addEventListener("keydown", tecla);  // evento de las teclas 
 
 // la funcion que permite el sinido y la imagen
@@ -44,11 +45,13 @@ inst.addEventListener("click", function () {
 })
 
 instru.addEventListener("click", function(){
-    instru.style.display = "none"
+    instru.style.display = "none";
 })
 
 document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
         instru.style.display = "none";
     }, 4000);
-})
+});
+
+
