@@ -7,6 +7,7 @@ document.addEventListener("keydown", tecla);  // evento de las teclas
 
 // la funcion que permite el sinido y la imagen
 function tecla(evento) {
+    evento.preventDefault();
     if (evento.keyCode == 32) {
         sonido.innerHTML=`<audio src="sounds/bombo.mp3" autoplay></audio>`;
         imagen.src ="img/base-bombo.png";
