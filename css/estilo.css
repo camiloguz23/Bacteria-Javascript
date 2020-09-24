@@ -1,8 +1,6 @@
 body {
     background-color: hsla(0, 0%, 70%, 1);
-    border:0;
-    padding:0;
-    margin: 0;
+    margin: 0px;
 }
 
 .musicos{
@@ -18,9 +16,9 @@ body {
 }
 
 .musicos img {
-    margin-top: 150px;
-    height: 450px;
-    width: 450px;  
+    margin-top: 30px;
+    height: 400px;
+    width: 400px;  
 }
 
 .contenedorUno {
@@ -30,51 +28,64 @@ body {
     
 }
 
-label {
-    position: absolute;
-    top: 5px;
-    left: 1400px;
-    z-index: 2;
-    color: white;
-    font-weight: bold;
-    font-size: 25px;
-}
+
 
 .lineaRoja{
     position: absolute;
     z-index: 3;
     height: 10px;
-    transform: skew(0deg, -7.5deg);
-    background-color: red;
+    transform: skew(-3deg, -7deg);
+    background-color:  hsl(0, 80%, 30%);
     width: 100%;
-    top: 120px;
+    top: 77px;
+}
+.lineanegra{
+    position: absolute;
+    z-index: 3;
+    height: 10px;
+    transform: skew(-3deg, -7deg);
+    background-color: black;
+    width: 100%;
+    top: 87px;
 }
 
 .logoUno {
     position: absolute;
-    top: 10px;
+    top: 9%;
     left: 20px;
     z-index: 2;
+    width: 100px;
 }
 
-.skewUno {
+.skewUno
+ {
     position: absolute;
-    top: 0px;
-    left: 0px;
+    top: -10%;
     background-color: black;
-    border-width:  3vh 0 29vh 100vw;       /*define el ancho del borde con su respectivo valor*/
+    border-width:  0vh 0 29vh 110vw;       /*define el ancho del borde con su respectivo valor*/
     border-style: solid;              /*el estilo del borde que sea solido*/
     border-color: transparent transparent hsla(0, 0%, 70%, 1) transparent;  /*yel borde que sea de color blanco transparente */
 }
 
-.titulo {
+.titulo 
+{
     position: absolute;
-    top: 100px;
-    left: 900px;
+    top: 50%;
+    left: 18%; 
+    font-family: 'Cinzel Decorative', cursive;
+    font-size: 350%; 
 }
-
+h2
+{
+    margin-top: 2%;
+    margin-left: 28%;
+    text-align: center;
+    font-size: 23px;
+    color :black;
+}
 /**************  ingreso al juego ********************/
-.zona {
+.zona 
+{
     background-image: url("../img/fondo.jpeg");
     background-attachment: fixed;
     background-size: cover;
@@ -83,19 +94,25 @@ label {
     display: flex;
     flex-direction: column;
 }
-.comienzo {
+.zona h1
+{
+    color: black;
+    font-size: 25px;
+    margin-left: 12%;
+}
+.comienzo 
+{
     display: flex;
     padding: 70px;
     justify-content: center;
-
 }
 
-
-.comienzo button {
-    margin-top: 100px;
+.comienzo button 
+{
+    margin-top: 7%;
     height: 40px;
-    width: 280px;
-    margin-right: 40px;
+    width: 15%;
+    margin-right: 30px;
     font-size: 30px;
     font-family: monospace;
     background-color: hsl(0, 80%, 30%);
@@ -103,53 +120,16 @@ label {
     border-radius: 10px;
     cursor: pointer;
 }
-
-button .imgbater {
-    margin-top: 40px;
+.imgBater
+{
+    margin-left: 10%; 
+   
 }
 
 
 
-/*----------------------------------FOOTER-------------------------------*/
 
-.imagenBater{
-    margin-left:30%;
-    position:absolute;
-}
-
-.veinte{
-    margin-left:70%;
-} 
-
-.imagenFloter{
-    margin-left: 80%;
-    position:absolute;
-    width:150px; 
-    left:100px;
-    margin-top:4%;
-}
-
-.veinte{
-    color:rgb(255, 255, 255);
-    position:absolute;
-    font-size:20px;
-    top:198%;
-    left:5%;
-}
-
-.abajo{
-    
-    top: 0px;
-    left: 0px;   
-    border-style: solid;              
-    border-width: 21vh 98.5vw 15vh 0; 
-    border-color: transparent hsl(0, 80%, 30%) hsl(0, 80%, 30%) transparent;
-}
-
-
-
-/*-------------------------------------------------------------PAGINA 2 DE LA BATERIA---------------------------------------*/
-
+/*-----------PAGINA 2 DE BATERIA------------------------*/
 
 
 .cabeza{
@@ -181,7 +161,7 @@ li:hover{
 nav{
     
     float: right;
-    margin-right: 27%;
+    margin-right: 19.5%;
  
 }
 
@@ -197,7 +177,7 @@ a{
 .bateria {
     position: relative;
     top: 70px;
-    margin-left: 30%;
+    margin-left: 27%;
 }
 
 
@@ -216,17 +196,24 @@ a{
 } 
 
 .imagenFloter2{
-    margin-left: 92%;
+    margin-left: 93%;
     position:absolute;
     width:70px; 
     margin-top:-6%;
 }
-
+.veinte
+{
+    color:rgb(255, 255, 255);
+    position:absolute;
+    font-size:17px;
+    top:213%;
+    left:2%;  
+}
 .veinte2{
     color:rgb(255, 255, 255);
     position:absolute;
     font-size:17px;
-    top:85.5%;
+    top:86.5%;
     left:2%;
    
 }
@@ -251,9 +238,3 @@ a{
     border-style: solid;  
     border-color:  transparent  black transparent;  
 }
-
-
-
-
-
-
