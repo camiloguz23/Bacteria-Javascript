@@ -166,14 +166,15 @@ li{
     padding:10px 110px 10px 10px;
     background: rgb(37, 80, 211);
 }
+
 .cabeza{
     width:100%;
     overflow: hidden;
     background: blue;
     position:absolute;
     margin-bottom: 20px;
-
 }
+
 li:hover{
     background: rgb(12, 12, 12);
     
