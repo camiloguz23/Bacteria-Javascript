@@ -162,6 +162,14 @@ li{
     border-radius: 20px;
 }
 
+.cabeza{
+    width:100%;
+    overflow: hidden;
+    background: blue;
+    position:absolute;
+    margin-bottom: 20px;
+}
+
 li:hover{
     background:  hsl(0, 80%, 30%) ;
     border-radius: 20px;
