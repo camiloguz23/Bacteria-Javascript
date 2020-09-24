@@ -48,6 +48,11 @@ instru.addEventListener("click", function(){
     instru.style.display = "none"
 })
 
+document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+        instru.style.display = "none";
+    }, 4000);
+})
 direccion.addEventListener("click", () => {
     window.location = "../bateria.html";
 })
