@@ -1,6 +1,7 @@
 const imagen = document.getElementById("imagen"); // llamo los elementos de html por el dom 
 const sonido = document.querySelector(".sonido");
 const direccion = document.getElementById("direccion")
+const instru = document.querySelector(".instru")
 document.addEventListener("keydown", tecla);  // evento de las teclas 
 
 // la funcion que permite el sinido y la imagen
@@ -32,6 +33,11 @@ function tecla(evento) {
     }
 }
 
+document.addEventListener("DOMContentLoaded", () => {
+    setTimeout(() => {
+        instru.style.display = "none";
+    }, 4000);
+})
 direccion.addEventListener("click", () => {
     window.location = "../bateria.html";
 })

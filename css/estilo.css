@@ -238,3 +238,13 @@ a{
     border-style: solid;  
     border-color:  transparent  black transparent;  
 }
+
+.instru {
+    position: absolute;
+    top: 8px;
+    left: 150px;
+    background-color: hsla(0, 0%, 0%, 0.5);
+    height: 600px;
+    border-radius: 20px;
+
+}
