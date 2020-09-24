@@ -1,7 +1,8 @@
 const imagen = document.getElementById("imagen"); // llamo los elementos de html por el dom 
 const sonido = document.querySelector(".sonido");
-const direccion = document.getElementById("direccion")
-const instru = document.querySelector(".instru")
+const direccion = document.getElementById("direccion");
+const instru = document.querySelector(".instru");
+const inst = document.getElementById("inst");
 document.addEventListener("keydown", tecla);  // evento de las teclas 
 
 // la funcion que permite el sinido y la imagen
@@ -32,6 +33,20 @@ function tecla(evento) {
         imagen.src ="img/base-tom-suelo.png";
     }
 }
+document.addEventListener("DOMContentLoaded", function () {
+    setTimeout(() => {
+     instru.style.display = "none"   
+    }, 8000);
+
+})
+
+inst.addEventListener("click", function () {
+    instru.style.display = "block"
+})
+
+instru.addEventListener("click", function(){
+    instru.style.display = "none"
+})
 
 document.addEventListener("DOMContentLoaded", () => {
     setTimeout(() => {
